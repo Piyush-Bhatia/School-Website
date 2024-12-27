@@ -3,30 +3,27 @@
 function Navbar() {
 return (
     <>
-        <nav>
-            <div className='nav-wrapper'>
-                <a href="#" className="">Green Field Paramount School</a>
-                <ul className="nav-links flex flex-row justify-evenly hover:flex-row gap-7">
+        <nav className=" bg-green-900 text-white p-4 rounded-3xl min-w-96">
+            <div className='nav-wrapper flex flex-row justify-evenly items-center'>
+                <a href="#" className="px-5 hover:text-white text-lg">Green Field Paramount School</a>
+                <ul className="nav-links flex flex-row justify-evenly hover:flex-row gap-7 px-5">
                     <li>
-                        <a href="#" className="hover:bg-blue-400">Home</a>
+                        <a href="#" className="hover:text-yellow-500 text-lg">Home</a>
                     </li>
                     <li>
-                        <a href="#">Our Story</a>
+                        <a href="#" className="hover:text-yellow-500 text-lg">Our Story</a>
                     </li>
                     <li>
-                        <a href="#">Impact</a>
+                        <a href="#" className="hover:text-yellow-500 text-lg">Impact</a>
                     </li>
                     <li>
-                        <a href="#">How to help</a>
+                        <a href="#" className="hover:text-yellow-500 text-lg">How to help</a>
                     </li>
                     <li>
-                        <a href="#">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Donate</a>
+                        <a href="#" className="hover:text-yellow-500 text-lg">Contact Us</a>
                     </li>
                 </ul>
-                <a href="" type="button" className="button"></a>
+                <a href="" type="button" className="button px-5 hover: hover:text-red-500 text-lg">Donate Now</a>
             </div>
         </nav>
     </>
