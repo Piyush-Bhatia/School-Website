@@ -13,11 +13,8 @@ function Counter() {
             <button className="btn" onClick={() => setCount(count * 0)}>Reset</button>
             <br />
 
-            
-            <button className="box block p-4" onClick={()=>setShow(!show)}>
-                show/hide
-                {show ? "Hide" : "show"}
-            </button>
+            <button className="box p-4" onClick={()=> setShow(!show)}>{show? "hide":"show"}</button>        
+   
         </>
     );
 }
